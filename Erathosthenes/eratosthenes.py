@@ -2,7 +2,7 @@ import math
 
 def eratosthenes(n):
 
-  # Initialize the "grid" with nothing crossed out. (every index is set to True)
+  # Initialize the "grid" with nothing crossed out (every index is set to True)
   could_be_prime = (n+1)*[True]
 
   # Get rid of 0 and 1 (not prime)
